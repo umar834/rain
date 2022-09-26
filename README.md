@@ -4,4 +4,4 @@ Frappe App for RAIN project
 
 #### License
 
-MIT
+Property of MicroMeger Pvt LTD
