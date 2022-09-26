@@ -2,7 +2,7 @@ from . import __version__ as app_version
 
 app_name = "rain"
 app_title = "Rain"
-app_publisher = "MicroMeger"
+app_publisher = "MicroMerger"
 app_description = "App for RAIN project"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
@@ -87,9 +87,9 @@ app_license = "MIT"
 # ---------------
 # Override standard doctype classes
 
-# override_doctype_class = {
-# 	"ToDo": "custom_app.overrides.CustomToDo"
-# }
+override_doctype_class = {
+	"User": "rain.doctype_overrides.customuser.CustomUser"
+}
 
 # Document Events
 # ---------------
