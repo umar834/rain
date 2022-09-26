@@ -1,6 +1,6 @@
 ## Rain
 
-App for RAIN project
+Frappe App for RAIN project
 
 #### License
 
