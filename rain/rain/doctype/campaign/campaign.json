@@ -13,7 +13,8 @@
   "campaign_description",
   "thematic_area",
   "thematic_sub_area",
-  "assigned_to"
+  "assigned_to",
+  "deliverables"
  ],
  "fields": [
   {
@@ -66,11 +67,17 @@
    "fieldtype": "Link",
    "label": "Assigned To",
    "options": "Academia"
+  },
+  {
+   "fieldname": "deliverables",
+   "fieldtype": "Table",
+   "label": "Deliverables",
+   "options": "Deliverable"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-09-26 10:30:58.986964",
+ "modified": "2022-09-30 12:10:58.566498",
  "modified_by": "Administrator",
  "module": "Rain",
  "name": "Campaign",
@@ -90,5 +97,6 @@
   }
  ],
  "sort_field": "modified",
- "sort_order": "DESC"
+ "sort_order": "DESC",
+ "states": []
 }

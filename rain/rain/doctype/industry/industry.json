@@ -14,7 +14,9 @@
   "job_title",
   "thematic_area",
   "thematic_sub_area",
-  "account_status"
+  "account_status",
+  "sector",
+  "bio"
  ],
  "fields": [
   {
@@ -69,14 +71,26 @@
    "fieldtype": "Select",
    "label": "Account Status",
    "options": "\nPending\nApproved"
+  },
+  {
+   "fieldname": "sector",
+   "fieldtype": "Select",
+   "label": "Sector",
+   "options": "\nGovernment\nIndustry"
+  },
+  {
+   "fieldname": "bio",
+   "fieldtype": "Text",
+   "label": "Bio"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-09-26 10:31:56.985301",
+ "modified": "2022-09-30 15:49:13.663856",
  "modified_by": "Administrator",
  "module": "Rain",
  "name": "Industry",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -93,5 +107,6 @@
   }
  ],
  "sort_field": "modified",
- "sort_order": "DESC"
+ "sort_order": "DESC",
+ "states": []
 }
