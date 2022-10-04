@@ -70,7 +70,7 @@
    "fieldname": "account_status",
    "fieldtype": "Select",
    "label": "Account Status",
-   "options": "\nPending\nApproved"
+   "options": "\nPending\nApproved\nRejected"
   },
   {
    "fieldname": "sector",
@@ -86,7 +86,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-09-30 15:49:13.663856",
+ "modified": "2022-09-30 19:15:22.178816",
  "modified_by": "Administrator",
  "module": "Rain",
  "name": "Industry",
