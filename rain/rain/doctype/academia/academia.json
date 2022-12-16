@@ -69,7 +69,8 @@
    "fieldname": "account_status",
    "fieldtype": "Select",
    "label": "Account Status",
-   "options": "\nPending\nApproved\nRejected"
+   "options": "\nPending\nApproved\nRejected",
+   "permlevel": 1
   },
   {
    "fieldname": "bio",
@@ -79,7 +80,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-09-30 19:14:58.451401",
+ "modified": "2022-11-21 14:48:08.130051",
  "modified_by": "Administrator",
  "module": "Rain",
  "name": "Academia",

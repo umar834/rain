@@ -8,7 +8,12 @@ import json
 import datetime
 
 class Campaign(Document):
-	pass
+	def before_insert(self):
+		self.campaign_status = "Open for Proposals"
+		
+	# def before_save(self):
+	# 	thematic_area = frappe.get_doc('Thematic Area', self.thematic_area)
+	# 	self.color = thematic_area.color
 
 @frappe.whitelist(allow_guest=True)
 def get_campaigns(usr=None, role=None):

@@ -15,6 +15,7 @@ app_license = "MIT"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/rain/css/rain.css"
 # app_include_js = "/assets/rain/js/rain.js"
+app_include_js = ["/assets/js/new_nav_bar.js"]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/rain/css/rain.css"
@@ -88,7 +89,8 @@ app_license = "MIT"
 # Override standard doctype classes
 
 override_doctype_class = {
-	"User": "rain.doctype_overrides.customuser.CustomUser"
+	"User": "rain.doctype_overrides.customuser.CustomUser",
+	"Meeting": "rain.doctype_overrides.custommeeting.CustomMeeting"
 }
 
 # Document Events

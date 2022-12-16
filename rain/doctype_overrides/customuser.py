@@ -1,5 +1,7 @@
 import frappe
 from frappe.core.doctype.user.user import User
+from urllib.parse import urlparse
+from urllib.parse import parse_qs
 
 class CustomUser(User):
     def send_welcome_mail_to_user(self):

@@ -8,6 +8,7 @@
  "engine": "InnoDB",
  "field_order": [
   "name1",
+  "color",
   "sub_areas"
  ],
  "fields": [
@@ -21,15 +22,22 @@
    "fieldname": "sub_areas",
    "fieldtype": "Table",
    "label": "Sub Areas",
-   "options": "Thematic Sub Area"
+   "options": "Sub Thematic Table"
+  },
+  {
+   "fieldname": "color",
+   "fieldtype": "Color",
+   "in_list_view": 1,
+   "label": "Color"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-09-26 10:32:37.510507",
+ "modified": "2022-11-21 14:10:34.172326",
  "modified_by": "Administrator",
  "module": "Rain",
  "name": "Thematic Area",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -46,5 +54,6 @@
   }
  ],
  "sort_field": "modified",
- "sort_order": "DESC"
+ "sort_order": "DESC",
+ "states": []
 }
